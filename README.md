@@ -15,5 +15,13 @@
 * Windows setup  
     - Execute PowerShell as admin  
         ```powershell
-        .\github_ssh_windows.ps1 "seu-email@moonlightmobile.dev"
+            .\github_ssh_windows.ps1 "seu-email@moonlightmobile.dev"
+        ```
+    * In case of error, try the command below:
+        ```powershell
+            Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+        ```
+    * Restart PowerShell and run
+        ```powershell
+            .\github_ssh_windows.ps1 "seu-email@moonlightmobile.dev"
         ```
