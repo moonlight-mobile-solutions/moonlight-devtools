@@ -6,7 +6,7 @@
 .PARAMETER githubEmail
     E-mail associado à conta do GitHub.
 .EXAMPLE
-    .\github_ssh_windows.ps1 -githubEmail "seu-email@exemplo.com"
+    .\github_ssh_windows.ps1 -githubEmail "seu-nome@moonlightmobile.dev"
 #>
 
 param(
